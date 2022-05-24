@@ -25,6 +25,7 @@ body {
 	background-size: cover;
 	background-position: top;
 	position: relative;
+	display: flex;
 }
 
 header {
@@ -262,3 +263,53 @@ span {
 		right: 0;
 	}
 }
+
+
+/*About CSS Starts*/
+
+.about {
+	width: 100%;
+	padding: 100px 0px;
+	background: #E8E0DD;
+}
+
+.about img {
+	height: 700px;
+	margin-right: 10px;
+}
+
+.about-text {
+	width: 550px;
+}
+
+.main {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2 {
+	color: #2ecc71;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.about-text h5 {
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.about-text p {
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+
